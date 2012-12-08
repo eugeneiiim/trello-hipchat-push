@@ -102,7 +102,7 @@ class TrelloRequest(object):
 				self.state = load(fid) or {}
 		except IOError:
 			print "Unable to open state file: " + fname
-		fid.close()
+		#fid.close()
 
 	def flush_action_state(self, fname='actionstate.yaml'):
 		try:
