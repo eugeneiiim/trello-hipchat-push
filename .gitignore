@@ -1,3 +1,4 @@
 *.yaml
 *.pyc
 src/run.sh
+venv
